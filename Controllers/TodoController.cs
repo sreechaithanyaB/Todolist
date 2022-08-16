@@ -7,8 +7,8 @@ using Microsoft.Extensions.Logging;
 using todolist.Models;
 
 namespace todolist.Controllers{
-    [ApiController]
-    [Route("[controller]")]
+[ApiController]
+[Route("[controller]")]
     public class TodoController : ControllerBase{
         private readonly TodoContext _context;
         public TodoController(TodoContext context){
