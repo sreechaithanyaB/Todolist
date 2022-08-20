@@ -6,6 +6,7 @@ public class TodoContext: DbContext{
 
     }
     public DbSet<todotask> todotasks{get; set;}
+    
 }
 
 }
