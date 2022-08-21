@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using todolist.Models;
+using Newtonsoft.Json;
 
 
 namespace todolist
@@ -28,6 +29,7 @@ namespace todolist
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddControllers();
             services.AddDbContext<TodoContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("Default")));
  
