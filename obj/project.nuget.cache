@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gqjxkLTzLhfiy5YZpr9BilmAhU/q+FQJwf9j++cs5crHy2HZWrYXW7AiaLti13Z2H9QheVGrQddYXLvbfV8OZA==",
+  "dgSpecHash": "GmsHUzdgqCYly/ka3370DYnYBp+lpkwIK3WhwLRRs+SVlRld0zfOGgzREx7Jn8oHFTzt6Y9lOcL1d45lgzZGPg==",
   "success": true,
   "projectFilePath": "/home/rootquotient/Documents/code/todolist/todolist.csproj",
   "expectedPackageFiles": [
+    "/home/rootquotient/.nuget/packages/automapper/9.0.0/automapper.9.0.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/7.0.0/automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.0/microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -38,6 +41,11 @@
     "/home/rootquotient/.nuget/packages/microsoft.extensions.options/3.1.8/microsoft.extensions.options.3.1.8.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.extensions.primitives/3.1.8/microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.identity.client/3.0.8/microsoft.identity.client.3.0.8.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.5.0/microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.identitymodel.logging/6.5.0/microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.identitymodel.protocols/5.5.0/microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/5.5.0/microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/microsoft.identitymodel.tokens/6.5.0/microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/rootquotient/.nuget/packages/microsoft.visualstudio.web.codegeneration/3.1.4/microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
@@ -99,6 +107,7 @@
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.globalization.calendars/4.3.0/system.globalization.calendars.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg.sha512",
+    "/home/rootquotient/.nuget/packages/system.identitymodel.tokens.jwt/6.5.0/system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.io.compression/4.3.0/system.io.compression.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.io.compression.zipfile/4.3.0/system.io.compression.zipfile.4.3.0.nupkg.sha512",
@@ -135,7 +144,7 @@
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.serialization.primitives/4.3.0/system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.algorithms/4.3.0/system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.cng/4.3.0/system.security.cryptography.cng.4.3.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.csp/4.3.0/system.security.cryptography.csp.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.encoding/4.3.0/system.security.cryptography.encoding.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.openssl/4.3.0/system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -159,5 +168,16 @@
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "todolist depends on System.IdentityModel.Tokens.Jwt (>= 5.9.0) but System.IdentityModel.Tokens.Jwt 5.9.0 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 6.5.0 was resolved.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
