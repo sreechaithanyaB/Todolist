@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using todolist.Models;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace todolist.Controllers{
 [ApiController]
@@ -47,6 +48,7 @@ public TodoController(TodoContext context){
         t_d_t_r_r.Task=t_d_t_r;
     return JsonConvert.SerializeObject(t_d_t_r_r);    }
 
+    [Authorize]
     //create or add an task to the db
     [HttpPost]
 
